@@ -13,6 +13,10 @@ body {
 	font: 13px Arvo, serif;
 }
 
+.main {
+	margin-top: 10px;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: Myriad Pro Cond, sans-serif;
 }
@@ -26,6 +30,7 @@ code {
 }
 
 .main-header {
+	position: absolute;
 	top: 15px;
 	width: 95%;
 	min-width: 95%;
