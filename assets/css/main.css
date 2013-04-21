@@ -63,7 +63,7 @@ code {
 	font: 15px Myriad Pro, sans-serif;
 }
 
-.main-header ul li.logo {
+.main-header .logo {
 	display: inline-block;
 	padding: 0;
 }
