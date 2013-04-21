@@ -59,6 +59,8 @@ code {
 .main-header ul li {
 	display: inline;
 	padding: 10px;
+
+	font: 15px Rockwell;
 }
 
 @media screen and (max-width: 600px) {
