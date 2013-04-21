@@ -63,11 +63,6 @@ code {
 	font: 15px Myriad Pro, sans-serif;
 }
 
-.main-header .logo {
-	display: inline-block;
-	padding: 0;
-}
-
 @media screen and (max-width: 600px) {
 
 
