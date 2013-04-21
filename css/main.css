@@ -1,0 +1,61 @@
+@import url(http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+:focus { outline: none; }
+
+html, body, div, article, section, aside {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font: 13px Arvo, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Myriad Pro Cond, sans-serif;
+}
+
+code {
+	font: 14px Source Code Pro;
+}
+
+.introduction {
+	width: 80%;
+}
+
+.main-header {
+	top: 15px;
+	width: 95%;
+	min-width: 95%;
+	height: 50px;
+	margin: 0px auto;
+	background-color: #4e99b8;
+}
+
+.logo {
+	width: 128px;
+	height: 128px;
+	background-color: #4e99b8;
+	background-image: url('');
+}
+
+.away {
+	right: -10000px;
+	z-index: 0;
+}
+
+.main-header ul {
+	list-style: none;
+}
+
+.main-header ul li {
+	padding: ;
+}
+
+@media screen and (max-width: 600px) {
+
+
+
+}
