@@ -43,7 +43,7 @@ code {
 	width: 128px;
 	height: 128px;
 	background-color: #4e99b8;
-	background-image: url(../img/logo-128.png);
+	background-image: url(../img/logo-128.png) no-repeat;
 }
 
 .away {
@@ -61,6 +61,11 @@ code {
 	padding: 10px;
 
 	font: 15px Rockwell;
+}
+
+.main-header ul li.logo {
+	display: inline-block;
+	padding: 0;
 }
 
 @media screen and (max-width: 600px) {
