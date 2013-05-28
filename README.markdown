@@ -11,4 +11,12 @@ Coming soon..
 
 ## Payments
 
-We don't pay authors for writing articles. Instead we will link back to their _personal_ site. Authors must write a short and breif bio which shouldn't exceed 55 words.
+We don't pay authors for writing articles. Instead we will link back to their _personal_ site. 
+
+## Note for Authors
+
+Every author who joins the FNOB Community must obey the rules of FNOB:
+
+* Authors must write a short and breif bio not exceeding 55 words.
+* The post must either be by the author or a translation of some other post by the author.
+* In case of a translation, only articles in English are allowed to be posted.
