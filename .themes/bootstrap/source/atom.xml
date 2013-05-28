@@ -1,0 +1,38 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[{{ site.title }}]]></title>
+  <link href="{{ site.url }}/atom.xml" rel="self"/>
+  <link href="{{ site.url }}/"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ site.url }}/</id>
+  <generator uri="http://octopress.org/">Octopress</generator>
+  <rights>{{ site.copyright }}</rights>
+
+  {% for post in site.posts limit: 50 %}
+  <entry>
+    <title type="html"><![CDATA[{{ post.title | cdata_escape }}]]></title>
+    <link href="{{ site.url }}{{ post.url }}"/>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <id>{{ site.url }}{{ post.id }}</id>
+    <category>{{ post.category }}</category>
+    <author>
+      <name><![CDATA[{{ post.author.name | strip_html }}]]></name>
+      {% if post.author.uri %}<uri><![CDATA[{{ post.author.uri }}]]></uri>{% endif %}
+      {% if post.auto.email %}<email><![CDATA[{{ site.email }}]]></email>{% endif %}
+    </author>
+    {% if post.contributors %}
+    {% for contributor in post.contributors %}
+      <contributor>
+        <name><![CDATA[{{ contributor.name }}]]></name>
+
+      </contributor>
+    {% endfor %}
+    {% endif %}
+    <content type="html"><![CDATA[{{ post.content | expand_urls: site.url | cdata_escape }}]]></content>
+  </entry>
+  {% endfor %}
+</feed>
